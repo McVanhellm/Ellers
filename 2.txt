@@ -1,0 +1,10 @@
+n1=0
+n2=1
+sum=0
+while sum<=4000000:
+    n3=n1+n2
+    if n3%2==0:
+        sum+=n3
+    n1=n2
+    n2=n3
+print(sum)
